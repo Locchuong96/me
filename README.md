@@ -2,16 +2,23 @@
 my online blog
 
 # Jetboy-docs
-![banner](/assets/banner-removebg-preview.png)
 
-|No|Tool|Description|
+|No|tool|descript|
 |---|---|---|
-|1|[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
-|2|[pixlr](https://pixlr.com/vn/x/)|design banner|
-|3|[ezgif](https://ezgif.com/maker)|ezgif maker|
-|4|[symbolcopy](https://www.symbolcopy.com/)|get symbol character|
-|5|[shields](https://shields.io/)|create your own git badges|
-|6|[kleki](https://kleki.com/)|drawing sketch online|
+||[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
+||[pixlr](https://pixlr.com/vn/x/)|design banner|
+||[ezgif](https://ezgif.com/maker)|ezgif maker|
+||[symbolcopy](https://www.symbolcopy.com/)|get sympol character|
+||[text art](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)|convert text to art|
+||[text image](https://shields.io/](https://www.text-image.com/))|convert text to image|
+||[diagrameditor](https://www.diagrameditor.com/)|drawing UML|
+||[symbolcopy](https://www.symbolcopy.com/)|get symbol character|
+||[shields](https://shields.io/)|create your own git badges|
+||[kleki](https://kleki.com/)|drawing sketch online|
+||[favicon.cc](https://www.favicon.cc/)|favicon generator|
+||[emoji](https://getemoji.com/)|emoji|
+||[emoji unicode](https://unicode.org/emoji/charts/full-emoji-list.html))|emoji unicode|
+||[emojipedia](https://emojipedia.org/)|emoji unicode|
 
 ### References
 
