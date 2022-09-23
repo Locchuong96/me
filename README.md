@@ -25,7 +25,7 @@ my online blog
 ||[kleki](https://kleki.com/)|drawing sketch online|
 ||[favicon.cc](https://www.favicon.cc/)|favicon generator|
 ||[emoji](https://getemoji.com/)|emoji|
-||[emoji unicode](https://unicode.org/emoji/charts/full-emoji-list.html))|emoji unicode|
+||[emoji unicode](https://unicode.org/emoji/charts/full-emoji-list.html)|emoji unicode|
 ||[emojipedia](https://emojipedia.org/)|emoji unicode|
 
 ### References
