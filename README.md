@@ -29,6 +29,9 @@ my online blog
 ||[emojipedia](https://emojipedia.org/)|emoji unicode|
 
 ### References
+[Complete Responsive Personal Portfolio Website using HTML CSS & JavaScript](https://www.youtube.com/watch?v=tcskp-ncN0I)
+
+[Create A Responsive PERSONAL PORTFOLIO Website Design Using [ HTML CSS JS ] - From Scratch](https://www.youtube.com/watch?v=QtOzUABE1Z4)
 
 [Amit Chaudhary](https://amitness.com/) | [Lei Mao](https://leimao.github.io/) | [Hi, I'm Dat](https://dat-tran.com/) | [ Lil’Log](http://lilianweng.github.io/)
 
