@@ -7,6 +7,8 @@ my online blog
 
 [How TO - Responsive Top Navigation](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
+[How To Create a Responsive Blog Post layout with CSS |Responsive |](https://www.youtube.com/watch?v=Nv4jI2IFq9I)
+
 [Home](https://huyenchip.com/)
 
 [Blogs](http://lilianweng.github.io/)
