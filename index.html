@@ -8,31 +8,49 @@
   <title>Home</title>
 </head>
 <body>
+  <!-- Navigation bar -->
+  <div class="topnav" id="myTopnav">
+    <a href="./index.html" class="active">Home</a>
+    <a href="./blog.html">Blogs</a>
+    <a href="https://locchuong96.github.io/Locchuong96/">Resume</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 
-<div class="topnav" id="myTopnav">
-  <a href="./index.html" class="active">Home</a>
-  <a href="./blog.html">Blogs</a>
-  <a href="https://locchuong96.github.io/Locchuong96/">Resume</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
+  <!-- Content -->
+  <div class='about'>
+    <img src='./assets/pic.jpeg' alt=''>
 
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
+    <div class='text'>
 
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
+      Hello there, my name is Loc Chuong, a developer and an engineer.
+      <br>
+      <br>I’m  also a co-founder of iteam1 (you can find us from google, we are the first result). We are a small team with big think and love making them come true.
+      <br>
+      <br>I graduated mechatronic engineer from Ho Chi Minh University of Technology and Education. I took 2 certificates about machine learning and data analyst and i have worked as machine learning engineer for 2 years. I learn alot from the others and i would love to share my knownleges with the other people. These will be post in this blog, and I am also writing a machine learning free ebook named Machine Learning For Miner. It will help the starter can take a deep looking about Machine Learning.
+      <br>
+      <br> I love coding, robot, technology and science thing. But at the weekends i will cook something special for me, listening the music and go around.
+      <br>
+      <br>• This is my personal GitHub Account <a href = 'https://github.com/Locchuong96'>locchuong</a>
+      <br>
+      <br>• Almost my project is published in <a href = 'https://github.com/iteam1'>iteam1 github</a>
+      <br>
+      <br>• You can check our team on this page <a href = 'https://iteam1.github.io/iteam1/index.html'>iteam1 page</a>
+      <br>
+      <br>I’m best reached via email. I’m always open to interesting conversations and collaboration.
+    </div>
+  </div>
+
+  <script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
   }
-}
-</script>
-
+  </script>
 </body>
 </html>
