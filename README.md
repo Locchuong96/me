@@ -9,7 +9,7 @@ my online blog
 
 [Simple Responsive Footer Design using HTML and CSS | footer html css](https://www.youtube.com/watch?v=IWFCBvepUlY)
 
-[How To Create a Responsive Blog Post layout with CSS |Responsive |](https://www.youtube.com/watch?v=Nv4jI2IFq9I)
+[How to create a responsive blog card with HTML and CSS](https://www.youtube.com/watch?v=zV4AqtTLQXU)
 
 [HomePage example](https://huyenchip.com/)
 
