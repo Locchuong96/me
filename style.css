@@ -80,8 +80,49 @@ body {
 
 @media screen and (max-width: 600px) {
   .about{
-  margin: 30px auto;
+  margin: 20px auto;
   width: 90%;
   padding: 8px;
+  }
+  .text {
+  text-align: flex;
+  font-size: 13px;
+  line-height: 18px;
+  letter-spacing: .8px;
+  word-spacing: 1.0px;
+  }
+  .about img{
+  float:right;
+  width: 40%;
+  height: auto;
+  padding: 0 5px 0 0;
+  margin-right: 14px;
+  margin-bottom: 14px;
+  border-radius: 50%;
+  }
 }
+
+/*phone size*/
+@media screen and (max-width: 400px) {
+  .about{
+  margin: 20px auto;
+  width: 100%;
+  padding: 4px;
+  }
+  .text {
+  text-align: flex;
+  font-size: 10px;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+  word-spacing: 0.8px;
+  }
+  .about img{
+  float:right;
+  width: 30%;
+  height: auto;
+  padding: 0 5px 0 0;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  }
 }
