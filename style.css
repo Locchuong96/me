@@ -62,7 +62,7 @@ body {
 
 .about img{
   float:right;
-  width: 50%;
+  width: 30%;
   height: auto;
   padding: 0 10px 0 0;
   margin-right: 20px;
@@ -93,7 +93,7 @@ body {
   }
   .about img{
   float:right;
-  width: 40%;
+  width: 25%;
   height: auto;
   padding: 0 5px 0 0;
   margin-right: 14px;
@@ -111,14 +111,14 @@ body {
   }
   .text {
   text-align: flex;
-  font-size: 10px;
+  font-size: 11px;
   line-height: 20px;
   letter-spacing: 0.6px;
   word-spacing: 0.8px;
   }
   .about img{
   float:right;
-  width: 30%;
+  width: 20%;
   height: auto;
   padding: 0 5px 0 0;
   margin-right: 10px;
