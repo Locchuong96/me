@@ -61,13 +61,13 @@ body {
 }
 
 .about img{
-  float:left;
-  width: 300px;
-  height: 260px;
+  float:right;
+  width: 50%;
+  height: auto;
   padding: 0 10px 0 0;
   margin-right: 20px;
   margin-bottom: 20px;
-  border-radius: 20px;
+  border-radius: 50%;
 }
 
 .text {

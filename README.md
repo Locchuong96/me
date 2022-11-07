@@ -7,6 +7,8 @@ my online blog
 
 [Wrapping text around image HTML CSS Tutorial](https://www.youtube.com/watch?v=5Uz33vo4GoQ)
 
+[Footer Html Css | website footer design](https://www.youtube.com/watch?v=zdA3qZNH1vc)
+
 [How To Create a Responsive Blog Post layout with CSS |Responsive |](https://www.youtube.com/watch?v=Nv4jI2IFq9I)
 
 [HomePage example](https://huyenchip.com/)
