@@ -269,3 +269,21 @@ footer{
   background-color: var(--foreground);
   color: var(--off-white);
 }
+
+@media screen and (max-width: 800px) {
+  .card{
+    display:flex;
+    overflow: hidden;
+  }
+  .card-image{
+    height: auto;
+    flex: 1;
+  }
+
+  .card-content{
+    flex:2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
