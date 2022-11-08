@@ -273,7 +273,7 @@ footer{
 @media screen and (min-width: 800px) {
   .card{
     display:flex;
-    overflow: hidden;
+/*    overflow: hidden;*/
   }
 
   .card-image{
