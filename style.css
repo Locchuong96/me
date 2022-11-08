@@ -273,7 +273,7 @@ footer{
 @media screen and (min-width: 800px) {
   .card{
     display:flex;
-/*    overflow: hidden;*/
+    overflow: hidden;
   }
 
   .card-image{
@@ -289,7 +289,7 @@ footer{
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 400px) {
   .blog{
     width: 100%;
     margin: 2rem auto;
