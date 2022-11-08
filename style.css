@@ -270,11 +270,11 @@ footer{
   color: var(--off-white);
 }
 
-/*@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) {
   .card{
     display:flex;
     overflow: hidden;
-  }
+/*  }
   .card-image{
     height: auto;
     flex: 1;
@@ -285,5 +285,5 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-}*/
+  }*/
+}
