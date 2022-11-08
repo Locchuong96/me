@@ -205,7 +205,7 @@ footer{
 }
 
 .card-image {
-  height: 35rem;
+  height: auto;
   overflow: hidden;
 }
 
