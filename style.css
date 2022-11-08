@@ -1,3 +1,10 @@
+/*define constant*/
+:root{
+  --off-white:#f5f5f5;
+  --primary: #3f3c3c;
+  --foreground: #04AA6D;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -172,18 +179,93 @@ footer{
     color: #fff;
     border: 1.1px solid white;
     padding: 5px;
-
     border-radius: 50%;
 
 }
 .socials a i{
     font-size: 1.1rem;
     width: 20px;
-
-
     transition: color .4s ease;
 
 }
 .socials a:hover i{
     color: #04AA6D;
+}
+/*starting blog style*/
+
+.blog{
+  width: 90%;
+  margin: 2rem auto;
+}
+
+.card{
+  background-color: white;
+  box-shadow: 0 0 2.5rem rgba(0,0,0,0.28);
+  margin-bottom: 20px;
+}
+
+.card-image {
+  height: 35rem;
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content{
+  padding: 2rem;
+}
+
+/*2 same class*/
+.blog-details,
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+.icon-text {
+  margin-right: 1rem;
+}
+
+.icon-text .icon{
+  color: var(--primary);
+  margin-right: 0.4rem;
+}
+
+.block-cta {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.button{
+  padding: 1.2rem 1.2rem;
+  display: inline-block;
+  background: var(--foreground);
+  border-radius: 1rem;
+  color:var(--off-white);
+  text-decoration: none;
+  line-height: 5px;
+}
+
+.share-button {
+  width: 2.4rem;
+  height: 2.4rem;
+  border: 0.1rem solid var(--foreground);
+  border-radius: 50%;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--foreground);
+  outline: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.share-button:focus {
+  background-color: var(--foreground);
+  color: var(--off-white);
 }

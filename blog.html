@@ -1,50 +1,135 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-   <link rel = "icon" href = "./assets/coffee-cup.png" type = "image/x-icon">
-   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <title>Blog</title>
-</head>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel = "icon" href = "./assets/coffee-cup.png" type = "image/x-icon">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Blog</title>
+  </head>
 <body>
-<div class="topnav" id="myTopnav">
-  <a href="./index.html">Home</a>
-  <a href="./blog.html" class="active">Blogs</a>
-  <a href="https://locchuong96.github.io/Locchuong96/">Resume</a>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-
-<div style="padding-left:16px">
-  <h2>Responsive Topnav Example</h2>
-  <p>Resize the browser window to see how it works.</p>
-</div>
-<!--footer-->
-  <footer>
-    <div class='footer-content'>
-      <p>I will say something meaningful here</p>
-      <ul class='socials'>
-        <li><a href="https://github.com/Locchuong96"><i class="fab fa-github"></i></a></li>
-        <li><a href="https://www.kaggle.com/locchuong"><i class="fab fa-kaggle"></i></a></li>
-        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
-        <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-      </ul>
+  <div class="topnav" id="myTopnav">
+    <a href="./index.html">Home</a>
+    <a href="./blog.html" class="active">Blogs</a>
+    <a href="https://locchuong96.github.io/Locchuong96/">Resume</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  <!--blog-->
+  <div = class='blog'>
+    <!--THE LATEST BLOG-->
+    <div class='card'>
+      <div class= 'card-content'>
+        <div class ='blog-details'>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-calendar'></i>
+            </span>
+            <span class ='text'>09/11/2022</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-user'></i>
+            </span>
+            <span class ='text'>Author</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-cube'></i>
+            </span>
+            <span class ='text'>2</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fas fa-comment'></i>
+            </span>
+            <span class ='text'>0</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-heart'></i>
+            </span>
+            <span class ='text'>1</span>
+          </div>
+        </div>
+        <h2 class= 'blog-title'>2️⃣ The second post in my blog 2️⃣</h2>
+        <p class = 'excerpt'>You know i have to test writing post so i need to create an other post, in this post i add emoji in the title and don't display image for checking the css style still work. And i even wrote a every every long long exceprt just to make sure the p-tag still fine.</p>
+        <div class='blog-cta'>
+          <a href='' class = 'button'>Read more</a>
+          <button class='share-button'><i class ='fa fa-share-alt'></i></button>
+        </div>
+      </div>
     </div>
-  </footer>
-<script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-</script>
-
+    <div class='card'>
+      <div class='card-image'>
+        <img src='./assets/pic.jpeg' alt =''>
+      </div>
+      <div class= 'card-content'>
+        <div class ='blog-details'>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-calendar'></i>
+            </span>
+            <span class ='text'>08/11/2022</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-user'></i>
+            </span>
+            <span class ='text'>Author</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-cube'></i>
+            </span>
+            <span class ='text'>1</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fas fa-comment'></i>
+            </span>
+            <span class ='text'>0</span>
+          </div>
+          <div class='icon-text'>
+            <span class ='icon'>
+              <i class ='fa fa-heart'></i>
+            </span>
+            <span class ='text'>1</span>
+          </div>
+        </div>
+        <h2 class= 'blog-title'>The first post in my blog :)</h2>
+        <p class = 'excerpt'>I am starting build my own blog, i hope it will helpful for someone! My blog will allow me touch the other and that will be awesome.</p>
+        <div class='blog-cta'>
+          <a href='' class = 'button'>Read more</a>
+          <button class='share-button'><i class ='fa fa-share-alt'></i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--footer-->
+    <footer>
+      <div class='footer-content'>
+        <p>I will say something meaningful here</p>
+        <ul class='socials'>
+          <li><a href="https://github.com/Locchuong96"><i class="fab fa-github"></i></a></li>
+          <li><a href="https://www.kaggle.com/locchuong"><i class="fab fa-kaggle"></i></a></li>
+          <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+  </script>
 </body>
 </html>

@@ -1,5 +1,14 @@
 # myblog
+
 my online blog
+
+### principles
+
+- blog html store in `./blog` folder
+
+- the blog number will be start from `1` and keep increase.
+
+- the latest blog at the top position.
 
 ### References
 
