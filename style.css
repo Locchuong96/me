@@ -289,9 +289,9 @@ footer{
   }
 }
 
-@media screen and (min-width: 400px) {
+/*@media screen and (min-width: 400px) {
   .blog{
     width: 100%;
     margin: 2rem auto;
   }
-}
+}*/
