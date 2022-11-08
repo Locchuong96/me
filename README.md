@@ -8,6 +8,7 @@ my online blog
 
 - the blog number will be start from `1` and keep increase.
 
+- the name of post content is `post<post-number>.html`
 - the latest blog at the top position.
 
 ### References
