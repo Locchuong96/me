@@ -288,3 +288,10 @@ footer{
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 600px) {
+  .blog{
+    width: 100%;
+    margin: 2rem auto;
+  }
+}
