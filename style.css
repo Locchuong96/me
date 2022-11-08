@@ -289,7 +289,7 @@ footer{
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .blog-title{
     font-size: 16px;
   }
@@ -307,6 +307,39 @@ footer{
   padding: 1rem;
   }
   .icon-text {
-  margin-right: 0.6rem;
+  margin-right: 0.3rem;
   }
+  .icon-text .icon{
+  color: var(--primary);
+  margin-right: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .blog-title{
+    font-size: 14px;
+  }
+  .excerpt{
+    font-size: 12px;
+  }
+  .share-button {
+  width: 1.4rem;
+  height: 1.4rem;
+  }
+  .button{
+  padding: 0.7rem 0.7rem;
+  }
+  .card-content{
+  padding: 1rem;
+  }
+  .icon-text {
+  margin-right: 0.2rem;
+  }
+  .icon-text .icon{
+  color: var(--primary);
+  margin-right: 0.1rem;
+  }
+  .card-content{
+  padding: 1.0rem;
+}
 }

@@ -28,3 +28,15 @@ my online blog
 [Resume example](https://chomeyama.github.io/Profile/)
 
 [flaticon](https://www.flaticon.com/)
+
+[Blog content example](https://huyenchip.com/2022/08/03/stream-processing-for-data-scientists.html)
+
+[Blog content example2](https://lilianweng.github.io/posts/2022-09-08-ntk/#vector-to-vector-derivative)
+
+[Blog content example3](https://chomeyama.github.io/SiFiGAN-Demo/)
+
+[Blog content example4](https://datascience-enthusiast.com/DL/Neural_machine_translation_with_attention.html)
+
+[Blog content example5](https://machinelearningcoban.com/math/)
+
+[Blog content example6](https://pbcquoc.github.io/transformer/)
