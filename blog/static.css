@@ -208,6 +208,26 @@ footer{
 .content img{
   margin: auto;
   display: flex;
+  width: 40%; 
+  height:auto;
+}
+
+@media screen and (max-width: 800px) {
+  .content img{
+    margin: auto;
+    display: flex;
+    width: 50%; 
+    height:auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .content img{
+    margin: auto;
+    display: flex;
+    width: 60%; 
+    height:auto;
+  }
 }
 
 .info {
