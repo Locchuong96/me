@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel = "icon" href = "./coffee-cup.png" type = "image/x-icon">
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static.css">
+    <title>Blog</title>
+  </head>
+  <body>
+    <!--navbar-->
+    <div class="topnav" id="myTopnav">
+      <a href="https://locchuong96.github.io/me/index.html">Home</a>
+      <a href="https://locchuong96.github.io/me/blog.html" class="active">Blogs</a>
+      <a href="https://locchuong96.github.io/Locchuong96/">Resume</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <!--content-->
+    <div class="content">
+      <!--title-->
+      <h1>Lịch sử Nông nghiệp và công nghệ</h1>
+      <!--info-->
+      <div class="info">
+        <span>Author: locchuong</span>
+        <span>Date: 11/18/22</span>
+        <span>Language:</span>
+        <a href="./post.html">eng</a>|<a href="#">vi</a>
+      </div>
+      <!--table of contents-->
+      <div>
+        <button class="show_toc" onclick="myFunction2()">Table of Contents</button>
+      </div>
+      <div id="toc">
+        <ol>
+          <li><a href="#intro">Intro</a></li>
+          <li><a href="#header1">Header1</a>
+          </li>
+          <li><a href="#header2">Header2</a>
+          </li>
+          <li><a href="#reference">Reference</a></li>
+        </ol>
+      </div>
+      <!--text-->
+      <h2 id="intro">Intro</h2>
+      <p>...</p>
+      <h2 id="header1">Header1</h2>
+      <p>...</p>
+      <h2 id="header2">Header2</h2>
+      <p>...</p>
+      <h2 id="reference">Reference</h2>
+      <p>...</p>
+      </div>
+
+    <!--footer-->
+      <footer>
+        <div class='footer-content'>
+          <p>© 2022 Loc Chuong</p>
+          <ul class='socials'>
+            <li><a href="https://github.com/Locchuong96"><i class="fab fa-github"></i></a></li>
+            <li><a href="https://www.kaggle.com/locchuong"><i class="fab fa-kaggle"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          </ul>
+        </div>
+      </footer>
+    
+    <!--Scripts-->
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      function myFunction2() {
+        var x = document.getElementById("toc");
+        if (x.style.display === "none") {
+          x.style.display = "block";
+        } else {
+          x.style.display = "none";
+        }
+      }
+    </script>
+
+  </body>
+</html>
