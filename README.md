@@ -4,11 +4,16 @@ my online blog
 
 ### principles
 
-- blog html store in `./blog` folder
+- blog html store in `./blog/<post_id>` folder
 
 - the blog number will be start from `1` and keep increase.
 
-- the name of post content is `post<post-number>.html`
+- the name of post content is `post.html`
+
+- all `post.html` share the same css file in directory `./blog`
+
+- items stored inside `<post_id>` folder
+
 - the latest blog at the top position.
 
 ### References
