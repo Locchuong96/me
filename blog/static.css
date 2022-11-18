@@ -201,8 +201,8 @@ footer{
   text-align: flex;
   font-size: 16px;
   line-height: 24px;
-  letter-spacing: .6px;
-  word-spacing: 1.2px;
+  letter-spacing: .3px;
+  word-spacing: 0.8px;
 }
 
 .content img{
@@ -235,14 +235,28 @@ footer{
   margin-bottom: 10px;
 }
 
+.info span{
+  color:#aaa;
+}
+
+.show_toc{
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: .3px;
+  word-spacing: 0.8px;
+  border: none;
+  background-color: #ECF0F1;
+}
+
 #toc {
-  background: #f9f9f9 none repeat scroll 0 0;
-  border: 1px solid #aaa;
+  background: #ECF0F1 none repeat scroll 0 0;
+  border: 1px solid #ECF0F1;
   display: table;
   font-size: 95%;
   margin-bottom: 1em;
   padding: 10px;
   width: auto;
+  border: none;
 }
 
 #toc ol {
@@ -252,6 +266,8 @@ footer{
 
 #toc li {
   display: block;
+  margin: 2px;
+  padding: 1px;
 }
 
 #toc li:before {
