@@ -181,7 +181,10 @@ footer{
 /*starting post style*/
 
 .content {
-  padding: 20px;
+  margin: auto;
+  width: 80%;
+  border: 1px solid var(--foreground);
+  padding: 10px;
 }
 
 .content p {
@@ -245,6 +248,7 @@ footer{
   padding: 10px;
   width: auto;
   border: none;
+  display: none;
 }
 
 #toc ol {
