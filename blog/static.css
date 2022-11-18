@@ -193,6 +193,28 @@ footer{
 }
 /*starting post style*/
 
+.content {
+  padding: 20px;
+}
+
+.content p{
+  text-align: flex;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: .6px;
+  word-spacing: 1.2px;
+}
+
+.content img{
+  margin: auto;
+  display: flex;
+}
+
+.info {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #toc {
   background: #f9f9f9 none repeat scroll 0 0;
   border: 1px solid #aaa;
@@ -204,7 +226,7 @@ footer{
 }
 
 #toc ol {
-  counter-reset: item;
+  counter-reset:item;
   padding: 0 10px 0 10px;
 }
 
