@@ -201,7 +201,7 @@ footer{
   height:auto;
 }
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .content img{
     margin: auto;
     display: flex;
@@ -217,7 +217,7 @@ footer{
     width: 120%; 
     height:auto;
   }
-}
+} */
 
 .info {
   margin-top: 10px;
