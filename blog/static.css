@@ -205,7 +205,7 @@ footer{
   .content img{
     margin: auto;
     display: flex;
-    width: 50%; 
+    width: 100%; 
     height:auto;
   }
 }
@@ -214,7 +214,7 @@ footer{
   .content img{
     margin: auto;
     display: flex;
-    width: 60%; 
+    width: 120%; 
     height:auto;
   }
 }
