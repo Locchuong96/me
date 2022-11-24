@@ -38,9 +38,10 @@
           <li><a href="#intro">Intro</a></li>
           <li><a href="#header1">Big picture</a></li>
           <li><a href="#header2">Machine learning</a></li>
-          <li><a href="#header3">Deep learning</a></li>
-          <li><a href="#header4">Timeline</a></li>
-          <li><a href="#header5">Asia heroes</a></li>
+          <li><a href="#header3">The kinds of data</a></li>
+          <li><a href="#header4">Deep learning</a></li>
+          <li><a href="#header5">Timeline</a></li>
+          <li><a href="#header6">Asia heroes</a></li>
           <li><a href="#reference">References</a></li>
         </ol>
       </div>
@@ -53,6 +54,9 @@
         In my humble opinion, i just want to share with you the point of view about machine learning.
         To get a fully understanding in any concept, theory,... you have to refer from many source, officially or out of line.
         That is my way to learn anything and also many people.
+        <br>Bellow is the picture of tools, framework and platforms support you implement the theory of machine learning 
+        into code, into experiments. almost of them is for free except the hardware part, "real things real money" as they said :)
+        <img src="./img4.PNG"  alt="" width="70%" height="auto" style="margin-top:10px;">
       </p>
       <h2 id="header1">Big picture</h2>
       <img src="./img.PNG"  alt="" width="70%" height="auto" style="margin-top:10px;">
@@ -67,14 +71,43 @@
       </p>
       <h2 id="header2">Machine learning</h2>
       <img src="./img2.PNG"  alt="" width="90%" height="auto" style="margin-top:10px;">
-      <p>There are 3 big branches of machine learning. They are identified by the way of learning.
-        <h4>Supervided learning</h4>
-        <p>...</p>
-        <h4>Unsupervided learning</h4>
+      <p>There are 3 big branches of machine learning. They are identified by the way of learning. But in any kind of them,
+        you have to define some math theory, and try to optimize the result by it. Repeat the updating and measuring until 
+        getting the satisfied result.
+        <h4>Supervised learning</h4>
+        <p>In supervised learning, you build a model include many params (the weights and bias),we use this model
+          to predict new income data. Then measure the error by and loss function. So our purpose is adjust the params
+          inside the model to minimize the error. How it do it? by the techniques called backpropagation and gradient descent.
+          2 problems can be solve by this theory is regression and classification. We need label or ground-truth value to apply
+          supervised learning.
+        </p>
+        <h4>Unsupervised learning</h4>
+        <p>Unsupervised learning does not need ground-truth data.we can create new information by the given data.
+          The famous unsupervised learning technique is K-means but there are still exist the other. K-means is applied in many
+          field as image color-reduction, or finding the centroid of the group of data.
+          <br>
+          The other application of unsupervised learning is dimensionality reduction of data. You know, in the real world,
+          and example about n-th dimension is a humble excel or csv data. That is not an abstact concept. So the
+          target of dimension reduction is reduce or decide which field of the data is useful. And convert the higher-dim data into 
+          lower one.
+        </p>
         <h4>Reinforcement learning</h4>
+        <p>Reinforcement learning base on reward and punish mechanism. Actually they just give the score for the response of model.
+          You can define a action by a math function with random values parameter then use this function to getting points.
+          More point gained meaning the action is more better. Many experiments in this field can be implemented in a virtual 
+          environment as game. A lot of uncertances will apear in the real world can effect to your calculation. But robotics field can apply 
+          reinforcement learning for many kind of adapted-application.
+        </p>
       </p>
-      <h2 id="header3">Deep learning</h2>
+      <h2 id="header3">The kinds of data</h2>
+      <p>There are 4 kinds of information in real world can be use for machine learning</p>
+      <br>- Image:
+      <br>- Audio:
+      <br>- Text:
+      <br>- Structured data:
       <img src="./img3.PNG"  alt="" width="70%" height="auto" style="margin-top:10px;">
+      <h2 id="header3">Deep learning</h2>
+      <img src="./img5.PNG"  alt="" width="70%" height="auto" style="margin-top:10px;">
       <p>...</p>
       <h2 id="header4">Timeline</h2>
       <img src="https://machinelearningcoban.com/assets/35_deeplearning/nn_timeline.jpg"  alt="" width="90%" height="auto" style="margin-top:10px;">
