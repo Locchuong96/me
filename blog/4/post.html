@@ -20,8 +20,10 @@
     </div>
     <!--content-->
     <div class="content">
+
       <!--title-->
       <h1>Carbon programming language</h1>
+      
       <!--info-->
       <div class="info">
         <span>Author: locchuong</span>
@@ -29,6 +31,7 @@
         <span>Language:</span>
         <a href="./post.html">eng</a>|<a href="#">vi</a>
       </div>
+      
       <!--table of contents-->
       <div>
         <button class="show_toc" onclick="myFunction2()">Table of Contents</button>
@@ -38,25 +41,75 @@
           <li><a href="#intro">Intro</a></li>
           <li><a href="#header1">Why they build Carbon Programming language?</a></li>
           <li><a href="#header2">Language goals</a></li>
-          <li><a href="#header3">The quick start</a></li>
+          <li><a href="#header3">Quick start</a></li>
           <li><a href="#header4">My expectation</a></li>
           <li><a href="#reference">References</a></li>
         </ol>
       </div>
+
       <!--text-->
       
       <h2 id="intro">Intro</h2>
-      <p>Carbon, or Carbon-Lang, is an experimental, <a href="https://en.wikipedia.org/wiki/General-purpose_programming_language">general-purpose programming language</a>. The project is <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> and was started by Google, following in the footsteps of previous Google-made programming languages (Go and Dart). Google engineer Chandler Carruth first introduced Carbon at the CppNorth conference in Toronto in July 2022. He stated that Carbon was created to be a C++ successor. The language is expected for a 1.0 release to occur in 2024 or 2025.</p>
+      <p>Carbon, or Carbon-Lang, is an experimental, <a href="https://en.wikipedia.org/wiki/General-purpose_programming_language">general-purpose programming language</a>. The project is <a href="https://en.wikipedia.org/wiki/Open-source_software">open-source</a> and was started by Google, following in the footsteps of previous Google-made programming languages (Go and Dart). 
+        Google engineer Chandler Carruth first introduced Carbon at the CppNorth conference in Toronto in July 2022.
+        He stated that Carbon was created to be a C++ successor. The language is expected for a 1.0 release to occur in 2024 or 2025.
+        They say:
+        <br>
+        - JavaScript → TypeScript
+        <br>
+        - Java → Kotlin
+        <br>
+        - C++ → Carbon
+      </p>
+        <p>As the development team annouced, Carbon will have these adavances:
+        <h4>Fast and works with C++</h4>
+        With LLVM (a set of compiler and toolchain technologies that can be used to develop a front end for any programming language and a back end for any instruction set architecture.)
+        Carbon's performance will be match C++, and this language can access to bits and addresses (also know as the memory addresses).
+        <br>
+        Carbon can work with  your exisiting C++ code. from inheritance to templates. So we don't worry about build everything from scratch.
+        So carbon is a compiled language.
+        <h4>Modern and evolving</h4>
+        The syntax quite similar to C++, and an easy,tool-based upgrades between each version of Carbon.
+        <h4>Welcoming open-source community</h4>
+        As Python, the development team define Carbon as a open language, and they wellcome the other contributors.This is really a bright point of view.
+        You can see the successful of Python when they build an community.They said Batteries-included approach: compiler, libraries, docs, tools, package manager, and more...
+      </p>
       
       <h2 id="header1">Why they build Carbon Programming language?</h2>
-      <p>...</p>
+      <p>
+        When we need an performance-critical software, The answer is C++. Today C++ is not an popular language as 20th century.
+        But you know the ranking is not everything. There are the differences between usages of them. In this century ,the hardware systems become clearly and easy for software developer.
+        In this century, we are building the applications, website, APIs services,etc, and we build them with packages, tools, libraries...That is the reason
+        why people does not use C++ as 20th century.
+        <br>
+        But improving C++ is extremly difficult because alot of problems accumulated from time to time. The developement team have an description about it <a href="https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/difficulties_improving_cpp.md">here</a>
+        They call these problems is technical debts :). So their solution is to void inheriting the legacy of C or C++ directy, and instead start with solid language foundations like modern generics system, modular code organization, and consistent, simple syntax.
+        Alot of existing modern langugae already provide an excellent developer experience as Go,Swift,Rust and many more . But these languages present significant barries to adoption and migration from C++.
+        And it seem like C++ legacy is so big to avoid.
+        <br>
+        Carbon is the solution. It is designed around interoperability with C++ as well as large-scale adoption and migration for existing C++ codebases and developers.
+      </p>
       
       <h2 id="header2">Language goals</h2>
-      <p>...</p>
+      <p>You can read the detail from the development team <a href="https://github.com/carbon-language/carbon-lang/blob/trunk/docs/project/goals.md">here</a>. The summary of their goals
+        <br>- Performance-critical software
+        <br>- Software and language evolution
+        <br>- Code that is easy to read, understand, and write
+        <br>- Practical safety and testing mechanisms
+        <br>- Fast and scalable development
+        <br>- Modern OS platforms, hardware architectures, and environments
+        <br>- Interoperability with and migration from existing C++ code
+        <br>
+        And they clearly say that, a stable application interface (ABI) and perfect backwards or forwards compability is not in this goal.
+        Meaning we still have alot of work in the future for next candidates.
+      </p>
       
-      <h2 id="header3">The quick start</h2>
-      <p>...</p>
-      
+      <h2 id="header3">Quick start</h2>
+      <p>Now we can try programming with Carbon on the <a href="https://godbolt.org/">compiler explorer</a>
+        without any installation or setup.
+        But you can also try to build from source code follow their instructions on GitHub.
+        <img src="img.png"  width="70%" height="auto">
+      </p>
       <h2 id="header4">My expectation</h2>
       <p>...</p>
       
@@ -72,6 +125,8 @@
       <a href="https://www.youtube.com/watch?v=MMxbP8ME2Ag">[5] Carbon Lang First Look & Crash Course | Google's C++ Successor</a>
       <br>
       <a href="https://www.youtube.com/watch?v=RvvbP5HaXeA">[6] How to Install the Carbon Programming Language. (Build tools from Source)</a>
+      <br>
+      <a href="https://statisticsanddata.org/data/the-most-popular-programming-languages-1965-2021/">[7] The Most Popular Programming Languages – 1965/2021 – New Update</a>
       <br>
     </div>
 
